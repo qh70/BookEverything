@@ -1,0 +1,115 @@
+body {
+    width: 90%;height: 70%;
+}
+
+.loginNsignup {
+    width: 110%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.type {
+    width: 40%;
+    margin-top: 5%;margin-left: 10%;
+}
+
+.picNtitle {
+    display: flex;
+    font:"Tsukimi Rounded";
+}
+
+.bething {
+    margin-left: 1rem;
+    font-size: 38px;font-weight: bold;
+}
+
+.login {
+    margin-top: 2rem;
+    font-size: 40px;font-weight: bold;
+}
+
+.loginToAccess {
+    margin-top: 0.5rem;
+    font-size: 21px;
+}
+
+.checkboxNForgotPassword {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rememberMe {
+    line-height: 5rem;
+}
+
+.forgotPassword {
+    margin-right: 6rem;
+    color:red;
+    line-height: 5rem;
+}
+
+.checkboxNRememberMe {
+    display: flex;
+    margin-left: -0.5rem;
+}
+
+.loginButton {
+    width: 90%;height: 4rem;
+    background-color: #A4DEFF;
+    border:none;
+    border-radius: 0.4rem;
+    font-size: 14px;font-weight: 600;
+}
+
+.dontHaveAnAccount {
+    width: 90%;
+    margin-top: 1.5rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+.orLoginWith {
+    display: flex;
+    width: 90%;
+    margin-top: 3rem;margin-bottom: 3rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.hori-line {
+    width: 40%;
+    height: 1px;
+    margin-top: 0.6rem;
+    border-top: solid 0.1rem grey;
+}
+
+.threeButtonsSection {
+    width: 90%;
+    margin-top: -1.5rem;
+    justify-content: space-around;
+    flex-grow: auto;
+}
+
+.threeButtons {
+    width:28%;height: 3rem;
+    margin: 1rem;
+    border: grey solid 0.1rem;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.thirdButton {
+    margin-top: 4rem;
+}
+
+.picSection {
+    width: 40%;
+    height: 0%;
+    margin-right: 10%;
+    float:right 
+}
+
+.pic{
+    width: 80%;height: 70%;
+    margin-top: 10%;margin-right: 104px;
+}

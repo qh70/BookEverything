@@ -5,7 +5,7 @@ const EmailInput = () => {
     return <TextField
         label="Email"
         id="outlined-start-adornment"
-        sx={{ m: 0, marginTop: 3, width: '85ch' }}
+        sx={{ m: 0, marginTop: 3, width: '90%' }}
         InputProps={{
         startAdornment: <InputAdornment position="start"></InputAdornment>,
         }}

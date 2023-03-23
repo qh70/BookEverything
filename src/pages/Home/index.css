@@ -1,5 +1,5 @@
 body {
-    width: 90%;height: 70%;
+    margin: 0px;
 }
 
 .loginNsignup {
@@ -15,7 +15,6 @@ body {
 
 .picNtitle {
     display: flex;
-    font:"Tsukimi Rounded";
 }
 
 .bething {
@@ -106,10 +105,270 @@ body {
     width: 40%;
     height: 0%;
     margin-right: 10%;
-    float:right 
+    float:right ;
 }
 
 .pic{
     width: 80%;height: 70%;
     margin-top: 10%;margin-right: 104px;
+}
+
+/* page SignUp */
+.signUpPicSection {
+    width: 40%;
+    height: 0%;
+    margin-left: 10%;
+}
+
+.signType {
+    width: 40%;
+    height: 0%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: -5%;
+    float:right 
+}
+
+/* page Booking */
+
+.bodyInBooking {
+    width: 100%;
+    margin-top: 0px;margin-left: 0px;
+    margin-right: 4%;
+    padding-top: 40px;
+    padding-left: 4%;padding-right: 4%;
+    background-color: rgb(238, 237, 237);
+}
+
+.navInBooking {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picNtitleInBooking {
+    display: flex;   
+}
+
+.navMiddleInBooking {
+    display: flex;
+    width: 30%;
+    padding-top: 1%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.picsInNavMiddleInBooking {
+    width: 19px;height: 21px;
+    margin-right: 2%;
+}
+
+.wordsInNavMiddleInBooking {
+    margin-right: 5%;
+}
+
+.rightInBooking {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.wordLoginInBooking {
+    margin-top: 10%;margin-left: -20%;margin-right: 10%;
+}
+
+.buttonSignUpInBooking {
+    width: 100px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.secondSecInBooking {
+    width: 91%;
+    margin-top: 47.5px;
+    z-index: 0;
+}
+
+.circle {
+    width: 91%;
+    text-align: center;
+}
+
+.headInBooking {
+    width: 10%;height: 10%;
+    margin-top: -150px;
+    border: 1px rgb(91, 207, 236) solid;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: white;
+}
+
+.circle1 {
+    width: 91%;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.penPicInBooking {
+    margin-right: -7%;
+}
+
+.nameNEmailInBooking {
+    width: 91%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.nameInBooking {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.emailInBooking {
+    font-size: 16px;
+    font-weight: 400;
+    color: #69696983;
+    ;
+}
+
+.profileNBookingsNPaymentInBooking {
+    display: flex;
+    width: 91%;height: 80px;line-height: 80px;
+    margin-top: 32px;
+    justify-content: center;
+    background-color: rgb(238, 237, 237);
+}
+
+.profildInBooking {
+    display: flex;
+    width: 30%;
+    padding-left: 2%;padding-right: 1%;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 18px;font-weight: 400;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.bookingsInBooking {
+    display: flex;
+    width: 30%;
+    padding-left: 2%;padding-right: 1%;
+    font-size: 18px;font-weight: 400;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.paymentInBooking {
+    width: 30%;
+    padding-left: 2%;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 18px;font-weight: 400;
+    background-color: white;
+}
+
+.boardsInProfileNBookingsNPaymentInBooking {
+    width: 0.1px;height: 80%;
+    border-left: solid;
+}
+
+.link-right {
+    width: 0px;
+    height: 50%;
+    margin-top: 20px;
+    border-right: solid #eff1f3 3px;
+}
+
+.wordMyBookingsInBookingNWordUpcomingNDownArrowInBooking {
+    display: flex;
+    width: 91%;
+    justify-content: space-between;
+}
+
+.wordMyBookingsInBooking {
+    margin-top: 40px;margin-left: 1%;
+    font-size: 28px;font-weight: 600;
+}
+
+.wordUpcomingNDownArrowInBooking {
+    display: flex;
+    height: 50%;
+    margin-top: 40px;margin-right: 2%;
+}
+
+.wordUpcomingInBooking {
+    font-size: 14px;font-weight: 600;
+}
+
+.downArrowInBooking {
+    height: 50%;
+    margin-top: 9%;margin-left: 15%;
+}
+
+.picNTimeNLocationNDownloadQRCodeInBooking {
+    display: flex;
+    width: 89%;height: 144px;line-height: 80px;
+    margin-top: 25px;margin-left: 1%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.picInPicNTimeNLocationNDownloadQRCodeInBooking {
+    margin-left: 3%;
+}
+
+.timeInPicNTimeNLocationNDownloadQRCodeInBooking {
+    margin-left: 3%;margin-right: 3%;
+    font-size: 20px;font-weight: 600;
+}
+
+.link-rightInPicNTimeNLocationNDownloadQRCodeInBooking {
+    width: 0px;
+    height: 50%;
+    margin-top: 0px;margin-right: 1%;
+    border-right: solid #eff1f3 3px;
+}
+
+/* .dateNDateInPicNTimeNLocationNDownloadQRCodeInBooking {
+    height: 30%;
+    background-color: red;
+} */
+
+.wordDateInPicNTimeNLocationNDownloadQRCodeInBooking {
+    margin-top: 0px;margin-left: -70%;
+    font-size: 14px;font-weight: 600;
+    color: #112211;
+}
+
+.dateInPicNTimeNLocationNDownloadQRCodeInBooking {
+    margin-top: -60px;margin-left: -70%;
+    font-size: 18px;font-weight: 700;
+}
+
+.wordLocationInPicNTimeNLocationNDownloadQRCodeInBooking {
+    margin-top: 0px;margin-left: -25%;
+    font-size: 14px;font-weight: 600;
+    color: #112211;
+}
+
+.locationInPicNTimeNLocationNDownloadQRCodeInBooking {
+    margin-top: -60px;margin-left: -25%;
+    font-size: 18px;font-weight: 700;
+}
+
+.rightArrowInBooking {
+    width: 3.2%;height: 33%;
+    margin-left: -4%;
+    border: #0058FE solid 2px;border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightArrowInPicNTimeNLocationNDownloadQRCodeInBooking {
+    width: 20%;
+    margin-left: 40%;margin-bottom: 25%;
+    object-fit: cover;
 }

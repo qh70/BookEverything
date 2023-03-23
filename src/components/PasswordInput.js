@@ -16,7 +16,7 @@ const Passwordinput = ({word}) => {
         event.preventDefault();
     };
 
-    return <FormControl sx={{ m: 0, marginTop: 3, width: '85ch' }} variant="outlined">
+    return <FormControl sx={{ m: 0, marginTop: 3, width: '90%' }} variant="outlined">
         <InputLabel htmlFor="outlined-adornment-password">{word}</InputLabel>
         <OutlinedInput
         id="outlined-adornment-password"

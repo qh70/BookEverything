@@ -372,3 +372,35 @@ body {
     margin-left: 40%;margin-bottom: 25%;
     object-fit: cover;
 }
+
+.blackSectionInBooking {
+    display: flex;
+    width: 89%;
+    margin-top: 25px;margin-left: 1%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #444444;    
+}
+
+.leftPartInBlackSectionInBooking {
+    width: 48%;
+    background-color: red;
+}
+
+.wordSubscribeToOurNewsletterInBlackSectionInBooking {
+    margin-top: 42px;margin-left: 1%;
+    font-size: 30px;font-weight: 700;
+    color: #ffffff;
+}
+
+.rightPartInBlackSectionInBooking {
+    width: 48%;
+    background-color: blue;
+}
+
+.wordBookEverythingNowInBlackSectionInBooking {
+    margin-top: 42px;
+    font-size: 20px;font-weight: 700;
+    color: #ffffff;
+}

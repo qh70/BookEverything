@@ -72,6 +72,17 @@ const Booking = () => {
                 <img className="rightArrowInPicNTimeNLocationNDownloadQRCodeInBooking" src={require("../../static/RightArrowInBooking.png")}></img>
             </div>
         </div>
+        <div className="blackSectionInBooking">
+            <div className="leftPartInBlackSectionInBooking">
+                <div className="wordSubscribeToOurNewsletterInBlackSectionInBooking">Subscribe To Our Newsletter</div>
+            </div>
+            <div className="rightPartInBlackSectionInBooking">
+                <div className="wordBookEverythingNowInBlackSectionInBooking">Book Everything now!</div>
+                <div>Get inspired! Receive our tips, IOT services and behind the scenes stories.</div>
+                <input></input>
+                <button>Subscribe</button>
+            </div>
+        </div>
         
     </div>
   )

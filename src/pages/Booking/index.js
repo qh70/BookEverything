@@ -1,51 +1,25 @@
 import React from 'react'
+import PicNBeThing from "../../components/PicNBeThing"
+import MiddleInNav from '../../components/MiddleInNav'
+import RightInNav from '../../components/RightInNav'
+import HeadNNameInBooking from '../../components/HeadNNameInBooking'
+import ProfileNBookingsNPaymentInBooking from '../../components/ProfileNBookingsNPaymentInBooking'
+import BlackSectionInBooking from '../../components/BlackSectionInBooking'
+import BottomInBooking from '../../components/BottomInBooking'
 
 const Booking = () => {
   return (
     <div className="bodyInBooking">
         <navbar className="navInBooking">
             {/* left */}
-            <div className="picNtitleInBooking">
-                <img src={require("../../static/1.png")}></img>
-                <div className="bething">BE-Thing</div>
-            </div>
+            <PicNBeThing />
             {/* middle */}
-            <div className="navMiddleInBooking">
-                <img className="picsInNavMiddleInBooking" src={require("../../static/Book your room.png")}></img>
-                <div className="wordsInNavMiddleInBooking">Book your room</div>
-                <img className="picsInNavMiddleInBooking"  src={require("../../static/Pricing.png")}></img>
-                <div className="wordsInNavMiddleInBooking">Pricing</div>
-                <img className="picsInNavMiddleInBooking"  src={require("../../static/Contact Us.png")}></img>
-                <div className="wordsInNavMiddleInBooking">Contact Us</div>
-            </div>
+            <MiddleInNav />
             {/* right */}
-            <div className="rightInBooking">
-                <div className="wordLoginInBooking">Login</div>
-                <button className="buttonSignUpInBooking">Sign Up</button>
-            </div>
+            <RightInNav />
         </navbar>
-        <img className="secondSecInBooking" src={require("../../static/officePicInBooking.png")} />
-        <div className="circle">
-            <img className="headInBooking" src={require("../../static/headshot.png")}></img>
-        </div>
-        <div className="circle1">
-            <img className="penPicInBooking" src={require("../../static/penPic.png")} />
-        </div>
-        <div className="nameNEmailInBooking">
-            <div className="nameInBooking">Benny Wai</div>
-            <div className="emailInBooking">benny.wai@gmail.com</div>
-        </div>
-        <div className="profileNBookingsNPaymentInBooking">
-            <div className="profildInBooking">
-                Profile
-                <div className="link-right"></div>
-            </div>
-            <div className="bookingsInBooking">
-                Bookings
-                <div className="link-right"></div>
-            </div>
-            <div className="paymentInBooking">Payment methods</div>
-        </div>
+        <HeadNNameInBooking />
+        <ProfileNBookingsNPaymentInBooking />        
         <div className="wordMyBookingsInBookingNWordUpcomingNDownArrowInBooking">
             <div className="wordMyBookingsInBooking">My bookings</div>
             <div className="wordUpcomingNDownArrowInBooking">
@@ -72,17 +46,8 @@ const Booking = () => {
                 <img className="rightArrowInPicNTimeNLocationNDownloadQRCodeInBooking" src={require("../../static/RightArrowInBooking.png")}></img>
             </div>
         </div>
-        <div className="blackSectionInBooking">
-            <div className="leftPartInBlackSectionInBooking">
-                <div className="wordSubscribeToOurNewsletterInBlackSectionInBooking">Subscribe To Our Newsletter</div>
-            </div>
-            <div className="rightPartInBlackSectionInBooking">
-                <div className="wordBookEverythingNowInBlackSectionInBooking">Book Everything now!</div>
-                <div>Get inspired! Receive our tips, IOT services and behind the scenes stories.</div>
-                <input></input>
-                <button>Subscribe</button>
-            </div>
-        </div>
+        <BlackSectionInBooking />
+        <BottomInBooking />
         
     </div>
   )

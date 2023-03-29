@@ -5,6 +5,8 @@ import Signup from "../Signup"
 import ResetPassword from "../ResetPassword"
 import ForgotYourPassword from "../ForgotYourPassword"
 import Booking from "../Booking"
+import Payment from "../Payment"
+import Detail1 from "../Detail1"
 
 const App = () => {
 
@@ -16,6 +18,8 @@ const App = () => {
                 <Route path="/resetpassword" element={<ResetPassword />} />
                 <Route path="/forgotyourpassword" element={<ForgotYourPassword />} />
                 <Route path="/booking" element={<Booking />} />
+                <Route path="/payment" element={<Payment />} />
+                <Route path="/detail1" element={<Detail1 />} />
             </Route>
 
         )

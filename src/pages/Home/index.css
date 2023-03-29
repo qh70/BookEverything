@@ -137,6 +137,7 @@ body {
     margin-right: 4%;
     padding-top: 40px;
     padding-left: 4%;padding-right: 4%;
+    padding-bottom: 4%;
     background-color: rgb(238, 237, 237);
 }
 
@@ -165,6 +166,8 @@ body {
 
 .wordsInNavMiddleInBooking {
     margin-right: 5%;
+    font-size: 18px;
+    font-weight: 700;    
 }
 
 .rightInBooking {
@@ -376,31 +379,201 @@ body {
 .blackSectionInBooking {
     display: flex;
     width: 89%;
-    margin-top: 25px;margin-left: 1%;
+    margin-top: 105px;margin-left: 1%;
+    padding-top: 0px;
     border-radius: 10px;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
-    background-color: #444444;    
+    background-color: #444444;  
+    z-index: 3;  
 }
 
 .leftPartInBlackSectionInBooking {
     width: 48%;
-    background-color: red;
+    margin-top: 24px;
 }
 
 .wordSubscribeToOurNewsletterInBlackSectionInBooking {
-    margin-top: 42px;margin-left: 1%;
+    margin-top: 0px;margin-left: 1%;
     font-size: 30px;font-weight: 700;
     color: #ffffff;
 }
 
 .rightPartInBlackSectionInBooking {
     width: 48%;
-    background-color: blue;
 }
 
 .wordBookEverythingNowInBlackSectionInBooking {
-    margin-top: 42px;
+    margin-top: 24px;
     font-size: 20px;font-weight: 700;
     color: #ffffff;
+}
+
+.wordGetInBlackSectionInBooking {
+    margin-top: 8px;
+    font-size: 18px;font-weight: 400;
+    color: #ffffff;
+}
+
+.inputInBlackSectionInBooking {
+    width: 75%;height: 56px;
+    margin-top: 24px;
+    padding-left: 10px;
+    border: 0px;border-radius: 5px;
+    font-size: 18px;
+}
+
+.buttonInBlackSectionInBooking {
+    width: 15%;height: 56px;
+    margin-top: -100px;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    border: 0px;border-radius: 5px;
+    color: white;background-color: #FFC107;
+}
+
+.bottomInBooking {
+    display: flex;
+    width: 100%;
+    margin-top: -90px;
+    padding-top: 150px;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+
+.beThingNPicsInBottomInBooking {
+    margin-left: -15%;
+}
+
+.picsInBottomInBooking {
+    margin-top: 10%;
+}
+
+.twitterPic {
+    margin-left: 5%;
+}
+
+.youtubePic {
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.igPic {
+    margin-left: 5%;
+}
+
+.blogInBottomInBooking {
+    margin-left: -10%;
+}
+
+.titlesInBottomInBooking {
+    margin-bottom: 16px;
+    font-size: 16px;font-weight: 700;
+    color: #112211;
+}
+
+.subtitlesInBottomInBooking {
+    margin-top: 12px;
+}
+
+/* page payment */
+
+.cCNAddNewCardInPayment {
+    display: flex;
+    width: 89%;height: 248px;line-height: 80px;
+    margin-top: 25px;margin-left: 1%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.cCInPayment {
+    width: 315px;height: 184px;
+    margin-left: -50%;
+    background-color: purple;
+}
+
+.addNewCard {
+    width: 315px;height: 184px;
+    margin-left: -100%;
+    border: dashed blue;
+}
+
+.wordAddANewCard {
+    align-items: end;
+    text-align: center;
+}
+
+/* page Detail */
+
+.picsInDetail {
+    display: flex;
+    width: 91%;
+    margin-top: 44px;
+    justify-content: center;
+}
+
+.leftPicInDetail {
+    width: 49%;
+}
+
+.rightPicInDetail {
+    margin-left: -4%;
+}
+
+.rightInRightPicInDetail {
+    margin-left: 0.5%;
+}
+
+.detailInDetail {
+    display: flex;
+    margin-top: 72px;
+    justify-content: center;
+}
+
+.leftInDetailInDetail {
+    margin-right: 10%;
+}
+
+.wordMeetingRoomInDetail {
+    font-size: 28px;font-weight: 600;
+}
+
+.wordProvideInDetail {
+    margin-top: 8px;
+}
+
+.wordOffersInDetail {
+    margin-top: 50px;
+    font-size: 28px;font-weight: 600;
+}
+
+.bookYourRoomInDetail {
+    width: 375px;height: 335px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.bookYourRoomInBookYourRoomInDetail {
+    display: flex;
+    margin-top: 34px;margin-left: 36px;
+}
+
+.dateInBookYourRoomInDetail {
+    margin-top: 33px !important;
+    margin-left: 33px !important;
+}
+
+.timeInBookYourRoomInDetail {
+    margin-top: 24px !important;
+    margin-left: 33px !important;
+}
+
+.buttonInBookYourRoomInDetail {
+    width: 82%;height: 48px;
+    margin-top: 24px;
+    margin-left: 33px;
+    border: none;border-radius: 10px;
+    color:white;background-color: #0058FE;
 }

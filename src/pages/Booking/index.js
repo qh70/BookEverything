@@ -31,17 +31,23 @@ const Booking = () => {
             <img className="picInPicNTimeNLocationNDownloadQRCodeInBooking" src={require("../../static/officePicInBooking2.png")} />
             <div className="timeInPicNTimeNLocationNDownloadQRCodeInBooking">10:00 - 11:00 am</div>
             <div className="link-rightInPicNTimeNLocationNDownloadQRCodeInBooking"></div>
-            <img src={require("../../static/DateInBooking.png")}></img>
-            <div>
+            
+            <img className="picDateInBooking" src={require("../../static/DateInBooking.png")}></img>
+
+            <div className="dateSecInPicNTimeNLocationNDownloadQRCodeInBooking">
                 <div className="wordDateInPicNTimeNLocationNDownloadQRCodeInBooking">Date</div>
                 <div className="dateInPicNTimeNLocationNDownloadQRCodeInBooking">07-Nov-22</div>
             </div>
-            <img src={require("../../static/LocationInBooking.png")}></img>
-            <div>
+
+            <img className="picLocationInBooking" src={require("../../static/LocationInBooking.png")}></img>
+
+            <div className="locationSecInPicNTimeNLocationNDownloadQRCodeInBooking">
                 <div className="wordLocationInPicNTimeNLocationNDownloadQRCodeInBooking">Location</div>
                 <div className="locationInPicNTimeNLocationNDownloadQRCodeInBooking">Meeting Room(Kwun Tong)</div>
             </div>
+
             <img src={require("../../static/DownloadQRCodeInBooking.png")}></img>
+            
             <div className="rightArrowInBooking">
                 <img className="rightArrowInPicNTimeNLocationNDownloadQRCodeInBooking" src={require("../../static/RightArrowInBooking.png")}></img>
             </div>

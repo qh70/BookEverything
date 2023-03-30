@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeadNNameInBooking = () => {
   return (
-    <div>
+    <div className="headNNameInBooking">
         <img className="secondSecInBooking" src={require("../static/officePicInBooking.png")} />
         <div className="circle">
             <img className="headInBooking" src={require("../static/headshot.png")}></img>

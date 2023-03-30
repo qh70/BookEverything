@@ -2,7 +2,6 @@
 import PicNBeThing from "../../components/PicNBeThing"
 import BlackSectionInBooking from '../../components/BlackSectionInBooking'
 import BottomInBooking from '../../components/BottomInBooking'
-import TextField from '@mui/material/TextField';
 
 const index = () => {
   return (
@@ -40,21 +39,19 @@ const index = () => {
                 <div className="wordEnter">Enter a Coupon Code</div>
                 <hr />
                 <div className="wordCancellation">Cancellation policy</div>
-                <div>Free cancellation for 48 hours. Cancel before 01 Nov for a partial<br></br> refund. Learn more</div>
+                <div className="wordFreeCancellationInCheckout">Free cancellation for 48 hours. Cancel before 01 Nov for a partial<br></br> refund. Learn more</div>
                 <hr />
-                <div>By selecting the button below, I agree to the Room Booking Rules, Ground rules for guests, BookEverything's Rebooking and Refund Policy, and that BookEverything can charge my payment method if I’m responsible for damage.</div>
-                <button className="buttonInBookYourRoomInDetail">Confirm and Pay</button>
+                <div className="wordBySelectingInCheckout">By selecting the button below, I agree to the Room Booking Rules, Ground rules for guests, BookEverything's Rebooking and Refund Policy, and that BookEverything can charge my payment method if I’m responsible for damage.</div>
+                <button className="buttonInCheckout">Confirm and Pay</button>
             </div>
             {/* right */}
             <div className="meetingBlockInCheckout">
-                <div className="bookYourRoomInBookYourRoomInDetail">
-                    <img className="picsInNavMiddleInBooking" src={require("../../static/Book your room.png")}></img>
-                    <div className="wordsInNavMiddleInBooking">Book your room</div>
+                <div className="picNMeetingRoomInMmeetingBlockInCheckout">
+                    <img src={require("../../static/MeetingRoomInCheckout.png")}></img>
+                    <div className="wordMeetingRoom">Meeting Room</div>
                 </div>
-                <TextField className="dateInBookYourRoomInDetail" id="outlined-basic" label="Date" variant="outlined" sx={{width: "82%"}}/>
-                <TextField className="timeInBookYourRoomInDetail" id="outlined-basic" label="Time" variant="outlined" sx={{width: "82%"}}/>
-                <button className="buttonInBookYourRoomInDetail">Reserve</button>
-                <div className="wordYouWontInDetail2">You won't be charged yet</div>
+                <div className="wordPriceDetail">Price Detail</div>
+                
                 <div className="pricePreHourInDetail2">
                     <div>HKD $400 x 1 hour</div>
                     <div>HKD $400</div>

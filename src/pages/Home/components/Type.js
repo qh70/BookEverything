@@ -24,14 +24,7 @@ const Type = () => {
             <div className="forgotPassword">Forgot Password</div>
         </div>
         <button className="loginButton">Login</button>
-        <div className="dontHaveAnAccount">Don't have an account?<a>Sign up</a></div>
-        <div className="orLoginWith"><div className="hori-line"></div>Or login with<div className="hori-line"></div></div>
-        
-        <div className="threeButtonsSection">
-            <button className="threeButtons"><img src={require("../../../static/facebook.png")} /></button>
-            <button className="threeButtons"><img src={require("../../../static/google.png")} style={{width:20, height:20}} /></button>
-            <button className="threeButtons"><img src={require("../../../static/apple.png")} /></button>
-        </div>
+        <div className="dontHaveAnAccount">Don't have an account?<a className="wordSignUpInType">Sign up</a></div>
     </div>
 }
 

@@ -577,3 +577,138 @@ body {
     border: none;border-radius: 10px;
     color:white;background-color: #0058FE;
 }
+
+/* page Detail2 */
+
+.bookYourRoomInDetail2 {
+    width: 375px;
+    padding-bottom: 30px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.wordYouWontInDetail2 {
+    margin-top: 32px;
+    font-size: 16px;font-weight: 400;
+    text-align: center;
+}
+
+.pricePreHourInDetail2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    font-size: 18px;font-weight: 400;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.hrInBookYourRoomInDetail2 {
+    width: 80%;
+    margin-top: 28px;margin-bottom: 24px;
+}
+
+.totalPriceInDetail2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+
+/* page Checkout */
+
+.secondSecInCheckout {
+    display: flex;
+    width: 82%;
+    margin-top: 57px;
+    margin-left: 3%;
+    justify-content: space-between;
+}
+
+.leftInSecondSecInCheckout {
+    width: 45%;
+}
+
+.wordConfirmationInChecking {
+    font-size: 32px;font-weight: 600;
+}
+
+.wordYourBookingInChecking {
+    margin-top: 45px;
+    font-size: 24px;font-weight: 600;
+}
+
+.dateNEditInChecking {
+    display: flex;
+    margin-top: 24px;
+    font-size: 18px;font-weight: 700;
+    justify-content: space-between;
+}
+
+.wordEditInChecking {
+    text-decoration: underline;
+}
+
+.dateInSecondSecInCheckout {
+    margin-top: 8px;
+    font-size: 16px;font-weight: 400;
+}
+
+.timeNEditInChecking {
+    display: flex;
+    margin-top: 24px;
+    font-size: 18px;font-weight: 700;
+    justify-content: space-between;
+}
+
+.timeInSecondSecInCheckout {
+    margin-top: 8px;margin-bottom: 39px;
+    font-size: 16px;font-weight: 400;
+}
+
+.payWithInCheckout {
+    margin-top: 48px;
+    font-size: 28px;font-weight: 600;
+}
+
+.cCOrDC {
+    width: 100%;height: 50px;
+    margin-top: 24px;
+    border: 1px solid;border-radius: 10px;
+}
+
+.expirationNCVV {
+    width: 101%;
+    display: flex;
+    padding: 0;
+}
+
+.expiration {
+    width: 49%;height: 50px;
+    border: 1px solid;border-radius: 10px 0 0 10px;
+}
+
+.cVV {
+    width: 49%;height: 50px;
+    border: 1px solid;border-radius: 0 10px 10px 0;
+}
+
+.wordEnter {
+    margin-top: 35px;margin-bottom: 51px;
+    font-size: 18px;font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.wordCancellation {
+    font-size: 28px;font-weight: 600;
+}
+
+.meetingBlockInCheckout {
+    width: 39%;
+    padding-bottom: 30px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: white;
+}

@@ -42,14 +42,24 @@ const index = () => {
                     <div>Refrigerator</div>
                 </div>
             </div>
-            <div className="bookYourRoomInDetail">
+            <div className="bookYourRoomInDetail2">
                 <div className="bookYourRoomInBookYourRoomInDetail">
                     <img className="picsInNavMiddleInBooking" src={require("../../static/Book your room.png")}></img>
                     <div className="wordsInNavMiddleInBooking">Book your room</div>
                 </div>
                 <TextField className="dateInBookYourRoomInDetail" id="outlined-basic" label="Date" variant="outlined" sx={{width: "82%"}}/>
                 <TextField className="timeInBookYourRoomInDetail" id="outlined-basic" label="Time" variant="outlined" sx={{width: "82%"}}/>
-                <button className="buttonInBookYourRoomInDetail">Check Availiability</button>
+                <button className="buttonInBookYourRoomInDetail">Reserve</button>
+                <div className="wordYouWontInDetail2">You won't be charged yet</div>
+                <div className="pricePreHourInDetail2">
+                    <div>HKD $400 x 1 hour</div>
+                    <div>HKD $400</div>
+                </div>
+                <hr className="hrInBookYourRoomInDetail2"/>
+                <div className="totalPriceInDetail2">
+                    <div>Total</div>
+                    <div>HKD $400</div>
+                </div>
             </div>
         </div>
         <BlackSectionInBooking />

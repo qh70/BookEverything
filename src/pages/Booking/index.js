@@ -48,7 +48,6 @@ const Booking = () => {
         </div>
         <BlackSectionInBooking />
         <BottomInBooking />
-        
     </div>
   )
 }

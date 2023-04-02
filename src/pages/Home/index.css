@@ -755,7 +755,6 @@ body {
     margin-top: 48px;
     border: none;border-radius: 8px;
     color: white;background-color: #0058FE;
-
 }
 
 .meetingBlockInCheckout {
@@ -785,4 +784,120 @@ body {
     margin-top: 32px;margin-bottom: 32px;
     font-size: 24px;font-weight: 600;
     text-align: start;
+}
+
+/* page Homepage */
+
+.firstPicSecInHomepage {
+    height: 599px;
+    padding-top: 10px;
+    border-radius: 24px;
+    color: white;
+    background-image: url("../../static/Homepage1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.buttonSignUpInHomepage {
+    width: 100px;
+    border: none;border-radius: 15px;
+    font-size: 18px;font-weight: 500;
+    background-color: white;
+}
+
+.wordProfessionalInHomepage {
+    margin: auto;
+    margin-top: 143px;
+    font-size: 45px;font-weight: 700;
+    text-align: center;
+}
+
+.wordClassyInHomepage {
+    margin: auto;
+    margin-top: 16px;
+    font-size: 20px;font-weight: 600;
+    text-align: center;
+}
+
+.secondSecInHomepage {
+    width: 89%;height: 170px;
+    margin: auto;
+    margin-top: -95px;
+    padding-top: 34px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.bookInSecondSecInHomepage {
+    display: flex;
+    margin-left: 36px;
+}
+
+.picsBookYourRoomInHomepage {
+    width: 19px;height: 21px;
+    margin-right: 1%;
+}
+
+.inputSecInHomepage {
+    display: flex;
+    margin-top: 33px;
+    justify-content: space-evenly;
+}
+
+.buttonInHomepage {
+    width: 22%;height: 55px;
+    border: none;border-radius: 8px;
+    color: white;background-color: #0058FE;
+}
+
+.picSecInHomepage {
+    display: flex;
+    width: 89%;
+    margin: auto;
+    margin-top: 88px;
+    justify-content: space-evenly;
+}
+
+.leftPicInHomepage {
+    width: 49%;height: 559px;
+    border-radius: 20px;
+    background-image: url("../../static/RightPicInHomepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rightPicInHomepage {
+    width: 49%;height: 559px;
+    border-radius: 20px;
+    background-image: url("../../static/LeftPicInHomepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.firstWordsInPicInHomepage {
+    margin-top: 318px;
+    font-size: 40px;font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.secondWordsInPicInHomepage {
+    width: 64%;
+    margin: auto;
+    margin-top: 8px;
+    font-size: 18px;font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.buttonInPicInHomepage {
+    width: 44%;height: 35px;line-height: 35px;
+    margin: auto;
+    margin-top: 37px;
+    border: 1px solid;border-radius: 6px;
+    text-align: center;
+    color: white;
 }

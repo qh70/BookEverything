@@ -9,6 +9,7 @@ import Payment from "../Payment"
 import Detail1 from "../Detail1"
 import Detail2 from "../Detail2"
 import Checkout from "../Checkout"
+import Homepage from "../Homepage"
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
                 <Route path="/detail1" element={<Detail1 />} />
                 <Route path="/detail2" element={<Detail2 />} />
                 <Route path="/checkout" element={<Checkout />} />
+                <Route path="/homepage" element={<Homepage />} />
             </Route>
 
         )

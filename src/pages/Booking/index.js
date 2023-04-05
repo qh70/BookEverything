@@ -1,4 +1,3 @@
-import React from 'react'
 import PicNBeThing from "../../components/PicNBeThing"
 import MiddleInNav from '../../components/MiddleInNav'
 import RightInNav from '../../components/RightInNav'

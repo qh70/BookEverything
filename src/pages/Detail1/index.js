@@ -10,20 +10,14 @@ const index = () => {
     <div className="bodyInBooking">
         <Nav />
         <div className="picsInDetail">
-            <div className="leftPicInDetail"><img src={require("../../static/leftOffice.png")}></img></div>
+            <img className="leftPicInDetail" src={require("../../static/leftOffice.png")}></img>
             <div className="rightPicInDetail">
-                <div>
+                <div className="leftInRightPicInDetail">
                     <img src={require("../../static/middleUpOffice.png")}></img>
-                </div>
-                <div>
                     <img src={require("../../static/middleDownOffice.png")}></img>
                 </div>
-            </div>
-            <div className="rightInRightPicInDetail">
-                <div>
+                <div className="rightInRightPicInDetail">
                     <img src={require("../../static/rightUpOffice.png")}></img>
-                </div>
-                <div>
                     <img src={require("../../static/rightDownOffice.png")}></img>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import FormControl from '@mui/material/FormControl';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 
-const Passwordinput = ({word}) => {
+const Passwordinput = ({word,width}) => {
     const [showPassword, setShowPassword] = React.useState(false);
 
     const handleClickShowPassword = () => setShowPassword((show) => !show);
@@ -16,7 +16,7 @@ const Passwordinput = ({word}) => {
         event.preventDefault();
     };
 
-    return <FormControl sx={{ m: 0, marginTop: 3, width: '90%' }} variant="outlined">
+    return <FormControl sx={{ m: 0, marginTop: 3, width: width?width : "90%" }} variant="outlined">
         <InputLabel htmlFor="outlined-adornment-password">{word}</InputLabel>
         <OutlinedInput
         id="outlined-adornment-password"

@@ -11,9 +11,10 @@ import Detail2 from "../Detail2"
 import Checkout from "../Checkout"
 import Homepage from "../Homepage"
 import BackendLogin from "../BackendLogin"
+import BackendLoginForgot from "../BackendLoginForgot"
+import GlobalStyle from '../../components/GlobalStyle';//Lato字形
 
 const App = () => {
-
     const router = createBrowserRouter(
         createRoutesFromElements(
             <Route path="/" element={<Root />}>
@@ -27,9 +28,9 @@ const App = () => {
                 <Route path="/detail2" element={<Detail2 />} />
                 <Route path="/checkout" element={<Checkout />} />
                 <Route path="/homepage" element={<Homepage />} />
-                <Route path="/BackendLogin" element={<BackendLogin />} />
+                <Route path="/backendlogin" element={<BackendLogin />} />
+                <Route path="/backendloginforgot" element={<BackendLoginForgot />} />
             </Route>
-
         )
     )
 

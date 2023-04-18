@@ -13,12 +13,12 @@ const index = () => {
             <img className="leftPicInDetail" src={require("../../static/leftOffice.png")}></img>
             <div className="rightPicInDetail">
                 <div className="leftInRightPicInDetail">
-                    <img src={require("../../static/middleUpOffice.png")}></img>
-                    <img src={require("../../static/middleDownOffice.png")}></img>
+                    <img className="topLeftInLeftInRightPicInDetail" src={require("../../static/middleUpOffice.png")}></img>
+                    <img className="bottomLeftInLeftInRightPicInDetail" src={require("../../static/middleDownOffice.png")}></img>
                 </div>
                 <div className="rightInRightPicInDetail">
-                    <img src={require("../../static/rightUpOffice.png")}></img>
-                    <img src={require("../../static/rightDownOffice.png")}></img>
+                    <img className="topRightInLeftInRightPicInDetail" src={require("../../static/rightUpOffice.png")}></img>
+                    <img className="bottomRightInLeftInRightPicInDetail" src={require("../../static/rightDownOffice.png")}></img>
                 </div>
             </div>
         </div>

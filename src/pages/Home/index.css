@@ -566,11 +566,38 @@ body {
 }
 
 .leftInRightPicInDetail {
+    width: 50%;
+}
+
+.topLeftInLeftInRightPicInDetail {
+    width: 99%;height: 49%;
+    margin: auto;
+}
+
+.bottomLeftInLeftInRightPicInDetail {
+    width: 99%;height: 49%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 0px;    
 }
 
 .rightInRightPicInDetail {
-    margin-left: 0px;
+    width: 50%;
+    margin-left: 1.5%;
 }
+
+.topRightInLeftInRightPicInDetail {
+    width: 99%;height: 49%;
+    margin: auto;
+}
+
+.bottomRightInLeftInRightPicInDetail {
+    width: 99%;height: 49%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 0px;   
+}
+
 
 .detailInDetail {
     display: flex;

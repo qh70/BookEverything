@@ -601,8 +601,10 @@ body {
 
 .detailInDetail {
     display: flex;
+    width: 91%;
+    margin: auto;
     margin-top: 72px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .leftInDetailInDetail {
@@ -899,7 +901,7 @@ body {
 }
 
 .leftPicInHomepage {
-    width: 49%;height: 559px;
+    width: 49%;height: 800px;
     border-radius: 20px;
     background-image: url("../../static/RightPicInHomepage.png");
     background-repeat: no-repeat;
@@ -908,7 +910,7 @@ body {
 }
 
 .rightPicInHomepage {
-    width: 49%;height: 559px;
+    width: 49%;height: 800px;
     border-radius: 20px;
     background-image: url("../../static/LeftPicInHomepage.png");
     background-repeat: no-repeat;
@@ -917,14 +919,14 @@ body {
 }
 
 .firstWordsInPicInHomepage {
-    margin-top: 318px;
+    margin-top: 55%;
     font-size: 40px;font-weight: 800;
     text-align: center;
     color: white;
 }
 
 .secondWordsInPicInHomepage {
-    width: 64%;
+    width: 45%;
     margin: auto;
     margin-top: 8px;
     font-size: 18px;font-weight: 400;
@@ -933,10 +935,11 @@ body {
 }
 
 .buttonInPicInHomepage {
-    width: 44%;height: 35px;line-height: 35px;
+    width: 44%;height:60;line-height: 60px;
     margin: auto;
-    margin-top: 37px;
+    margin-top: 20px;
     border: 1px solid;border-radius: 6px;
+    font-size: 22px;
     text-align: center;
     color: white;
 }

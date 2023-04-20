@@ -12,7 +12,7 @@ import Checkout from "../Checkout"
 import Homepage from "../Homepage"
 import BackendLogin from "../BackendLogin"
 import BackendLoginForgot from "../BackendLoginForgot"
-import GlobalStyle from '../../components/GlobalStyle';//Lato字形
+import BackendDashboard from "../BackendDashboard"
 
 const App = () => {
     const router = createBrowserRouter(
@@ -30,6 +30,7 @@ const App = () => {
                 <Route path="/homepage" element={<Homepage />} />
                 <Route path="/backendlogin" element={<BackendLogin />} />
                 <Route path="/backendloginforgot" element={<BackendLoginForgot />} />
+                <Route path="/backenddashboard" element={<BackendDashboard />} />
             </Route>
         )
     )

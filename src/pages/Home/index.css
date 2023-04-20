@@ -177,6 +177,7 @@ body {
     margin-right: 5%;
     font-size: 18px;
     font-weight: 700;    
+    white-space:nowrap;
 }
 
 .rightInBooking {
@@ -601,10 +602,10 @@ body {
 
 .detailInDetail {
     display: flex;
-    width: 91%;
+    width: 89%;
     margin: auto;
     margin-top: 72px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .leftInDetailInDetail {
@@ -901,7 +902,7 @@ body {
 }
 
 .leftPicInHomepage {
-    width: 49%;height: 800px;
+    width: 49%;height: 559px;
     border-radius: 20px;
     background-image: url("../../static/RightPicInHomepage.png");
     background-repeat: no-repeat;
@@ -910,7 +911,7 @@ body {
 }
 
 .rightPicInHomepage {
-    width: 49%;height: 800px;
+    width: 49%;height: 559px;
     border-radius: 20px;
     background-image: url("../../static/LeftPicInHomepage.png");
     background-repeat: no-repeat;
@@ -919,14 +920,14 @@ body {
 }
 
 .firstWordsInPicInHomepage {
-    margin-top: 55%;
+    margin-top: 318px;
     font-size: 40px;font-weight: 800;
     text-align: center;
     color: white;
 }
 
 .secondWordsInPicInHomepage {
-    width: 45%;
+    width: 64%;
     margin: auto;
     margin-top: 8px;
     font-size: 18px;font-weight: 400;
@@ -935,11 +936,10 @@ body {
 }
 
 .buttonInPicInHomepage {
-    width: 44%;height:60;line-height: 60px;
+    width: 44%;height: 35px;line-height: 35px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 37px;
     border: 1px solid;border-radius: 6px;
-    font-size: 22px;
     text-align: center;
     color: white;
 }
@@ -1083,9 +1083,11 @@ body {
 }
 
 .whiteSecInBackendLoginForgot {
-    width: 39%;height: 65%;
+    width: 39%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;margin-bottom: 15%;
+    padding-top: 2%;
+    padding-bottom: 3%;
     border-radius: 30px;
     color: black;background-color: white;
 }
@@ -1093,7 +1095,7 @@ body {
 .innerWhiteSecInBackendLoginForgot {
     width: 72%;
     margin: auto;
-    padding-top: 9%;
+    margin-top: 1%;
 }
 
 .wordForgotInBackendLoginForgot {
@@ -1119,3 +1121,187 @@ body {
     border: 0px;border-radius: 8px;
     color: white;background-color: #0058FE;
 }
+
+/* page BackendDashboard */
+/* 搬運，全頁製作好消除註解 */
+
+.bodyInBackendDashboard {
+    display: flex;
+}
+.leftInBackendDashboard {
+    width: 18%;
+    min-width: 150px;
+}
+  
+.leftEmpty {
+    width: 18%;height: 100vh;
+    min-width: 150px;
+    margin: 0px;
+}
+  
+.left {
+    width: 18%;height: 100vh;
+    min-width: 150px;
+    margin: 0px;
+    background-color: #0058FE;
+    position: fixed;top: 0;left: 0;
+    z-index: 2000;
+}
+  
+  /* .imgNWTYTrading {
+    width: 100%;margin-bottom: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+  } */
+  
+  .logoNWordInOrder {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    margin-top: 45px;
+    justify-content: space-around;
+  }
+  
+  .WTCLogo1{
+    width: 24px;height: 34px;max-width: 24px;min-width: 20px;
+    margin-right: 15%;
+  }
+
+.whiteBlockDashboardInBackendDashboard {
+    display: flex;
+    width: 80%;height: 6%;
+    margin: auto;
+    margin-top: 40%;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+  
+  /* .WTYTrading {
+    margin-top: 5px;margin-left: 19px;
+    font-size: 19px;
+    white-space:nowrap;
+  } */
+  
+  /* .straightLine {
+    width: 4px;height: 56px;
+    margin-left: 0px;margin-right: 3px;
+    background-color: #5F77F1;
+  } */
+  
+  .straightLineDark {
+    width: 4px;height: 56px;
+    margin-left: 0px;margin-right: 3px;
+  }
+  
+  /* .iconNMenu{
+    width: 231px;height: 56px;
+    display: flex;
+    background-color: #5B60DE;
+    align-items: center;
+  } */
+  
+  .ListInLeftNew {
+    color: white;
+    margin-top: 5px!important;
+  }
+  
+  .iconNMenuDark{
+    display: flex;
+    width: max-content;height: 3%;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .itemIcon {
+    width: 16px;height: 18px;
+    margin-left: 20px;
+    color: white !important;
+  }
+  
+  .itemIconDark {
+    width: 16px;height: 18px;
+    margin-left: 35px;
+    color: white !important;
+  }
+  
+  .itemMenu {
+    margin-top: 13px!important;margin-left: 10px;
+    color: white ;
+  }
+  
+  .itemMenuDark {
+    margin-top: 13px!important;margin-left: -5%;
+    color: white;
+  }
+
+  .downListInLeftInBackendDashboard {
+    color: white;
+    margin-top: 40%!important;
+  }
+  
+  .item {
+    margin: 20px;
+    display: flex;
+  }
+  
+  .itemDark {
+    margin: 20px;
+    display: flex;
+  }
+  
+  .imgItem {
+    width: 5px;height: 10px;
+  }
+  
+  .itemDetails {
+    height: 10px;line-height: 10px;
+    color: white;
+  }
+  
+  .itemDetailsDark {
+    height: 10px;line-height: 10px;
+    color: grey;
+  }
+
+  /* RightInBackendDashboard */
+  .rightInBackendDashboard {
+    width: 75%;
+  }
+
+  /* NavInBackendDashboard */
+  .navInBackendDashboard {
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 38px;
+    margin-right: 36px;
+    font-size: 24px;font-weight: 700;
+    color: black;
+    justify-content: space-between;
+  }
+  
+  .wordOverviewInNavInBackendDashboard {
+    margin-right: 0px;
+  }
+
+  .stackInNavInBackendDashboard {
+    margin-right: 28px;
+  }
+
+  .nameInNavInBackendDashboard {
+    margin-right: 28px;
+    font-size: 14px;font-weight: 700;
+    color: black;
+  }
+
+  .titleInNavInBackendDashboard {
+    font-size: 14px;font-weight: 500;
+    color: #B3B3B3;
+  }
+  /* 額外效果 */
+  .pointer {
+    cursor: pointer;
+  }

@@ -1,19 +1,17 @@
 import EmailInput from "../../components/EmailInput"
 import PasswordInput from "../../components/PasswordInput"
+import GreyPicNBlackBeThing from "../../components/GreyPicNBlackBeThing"
 
 const Signup = () => {
     return (
         <div className="loginNsignup">
             {/* 左邊 */}
             <div className="signUpPicSection">
-                <img src={require("../../static/office4.png")} className="pic"/>
+                <img src={require("../../static/office4.png")} className="pic" alt=""/>
             </div>
             {/* 右邊 */}
             <div className="signType">
-                <div className="picNtitle">
-                    <img src={require("../../static/1.png")}></img>
-                    <div className="bething">BE-Thing</div>
-                </div>
+                <GreyPicNBlackBeThing />
                 <div className="login">Sign up</div>
                 <div className="loginToAccess">Let’s get you all st up so you can access your personal account.</div>
                 <EmailInput />

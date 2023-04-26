@@ -24,12 +24,12 @@ body {
 }
 
 .login {
-    margin-top: 2rem;
+    margin-top: 45px;
     font-size: 40px;font-weight: bold;
 }
 
 .loginToAccess {
-    margin-top: 0.5rem;
+    margin-top: 36px;
     font-size: 21px;
 }
 
@@ -420,7 +420,7 @@ body {
     margin-top: 105px;
     padding-top: 0px;
     border-radius: 10px;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-around;
     background-color: #444444;  
     z-index: 3;  
@@ -1271,7 +1271,7 @@ body {
     width: 75%;
   }
 
-  /* NavInBackendDashboard */
+  /** NavInBackendDashboard **/
   .navInBackendDashboard {
     display: flex;
     width: 100%;
@@ -1305,3 +1305,196 @@ body {
   .pointer {
     cursor: pointer;
   }
+
+  /** InToday **/
+  .inTodayInBackendDashboard {
+    display: flex;
+    width: 100%;        /* 跟navInBackendDashboard一樣 */
+    margin-top: 56px;
+    margin-left: 38px;  /* 跟navInBackendDashboard一樣 */
+    margin-right: 36px; /* 跟navInBackendDashboard一樣 */
+    font-size: 18px;font-weight: 800;
+  }
+
+  .downArrowInBackendDashboard {
+    height: 70%;
+    margin-top: 13px;
+    margin-left: 1%;
+  }
+
+  /** ContentInBackendDashboard **/
+  .ContentInBackendDashboard {
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 38px;  /* 跟navInBackendDashboard一樣 */
+    margin-right: 36px; /* 跟navInBackendDashboard一樣 */
+  }
+
+  .bottomInContentInBackendDashboard {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .coinsNAppointments {
+    width: 65%;
+  }
+
+  .coins {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .threeCoinsSec {
+    width: 30%;height: 100px;    
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    align-items: end;
+  }
+
+  .topInthreeCoinsSec {
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+.bottomInthreeCoinsSec {
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.iconInTopInthreeCoinsSec {
+    margin-top: 6.5%;
+    margin-left: 8%;
+}
+
+.percentageInTopInthreeCoinsSec {
+    margin-top: 11%;
+    margin-right: 8%;
+    font-size: 12px;font-weight: 400;
+}
+
+.numInBottomInthreeCoinsSec {
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 24px;font-weight: 700;
+}
+
+.statusInBottomInthreeCoinsSec {
+    margin-bottom: 11%;
+    margin-right: 8%;
+    font-size: 12px;font-weight: 400;
+}
+
+.appointmentsSec {
+    margin-top: 52px;
+}
+
+.appointmentsNSearchNFilter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wordAppointments {
+    font-size: 18px;font-weight: 700;
+}
+
+.wordShowing {
+    margin-top: 18px;
+    font-size: 12px;font-weight: 400;
+    color: #807B7B;
+}
+
+.inputNFilterInBackendDashboard {
+    width: 48%;
+    display: flex;
+    align-items: end;
+}
+
+.inputSearchInBackendDashboard {
+    width: 100%;height: 50%;
+    margin-right: 5%;
+    padding-left: 15%;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    background: #FAFAFA;
+
+    background-image: url("../../static/Microscoop.png");
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+
+.filterInBackendDashboard {
+    height: 57%;
+}
+
+.tableInBackendDashboard {
+    margin-top: 31px;
+}
+
+.trOfHeadInBackendDashboard {
+    display: flex;
+    width: 100%;
+    font-size: 12px;font-weight: 700;
+    color: #4C4C4C;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.iDinAppointmentsInBackendDashboard {
+    display: flex;
+    width: 20%;
+}
+
+.appointmentDateInBackendDashboard {
+    display: flex;
+    width: 20%;
+    white-space: nowrap;
+    background-color: blue;
+}
+
+.arrowsInBackendDashboard {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.upArrowInAppointmentsInBackendDashboard { 
+    width: 0;
+    height: 0;
+    border: 3px solid black;
+    border-color: transparent transparent black transparent;
+}
+
+.downArrowInAppointmentsInBackendDashboard {
+    width: 0;
+    height: 0;
+    margin-top: 15%;
+    border: 3px solid black;
+    border-color: black transparent transparent transparent;   
+}
+
+.trOfBodyInBackendDashboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trOfBodyInBackendDashboard {
+    text-align: left;
+    background-color: yellow;
+}
+
+.calendarInBackendDashboard {
+    width: 33%;
+    background-color: green;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+

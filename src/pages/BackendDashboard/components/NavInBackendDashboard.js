@@ -57,7 +57,7 @@ const Header = () => {
             </div>
             {/* {!login ?  */}
             {/* <div className="NameAndLogoutInHeader" onClick={() => {setLogoutPopupOpen(true)}}>Logout</div>  */}
-            <div>bell</div>
+            <img src={require("../../../static/bellInBackendDashboard.png")} />
              {/* : null
             } */}
             {/* <LogoutPopup/> */}

@@ -1,15 +1,13 @@
 import Checkbox from '@mui/material/Checkbox';
 import EmailInput from "../../../components/EmailInput"
 import PasswordInput from "../../../components/PasswordInput"
+import GreyPicNBlackBeThing from '../../../components/GreyPicNBlackBeThing';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 const Type = () => {
     return <div className="type">
-        <div className="picNtitle">
-            <img src={require("../../../static/1.png")}></img>
-            <div className="bething">BE-Thing</div>
-        </div>
+        <GreyPicNBlackBeThing />
         <div className="login">Login</div>
         <div className="loginToAccess">Login to access your account</div>
         <EmailInput />

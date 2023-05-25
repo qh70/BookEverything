@@ -7,6 +7,7 @@ const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const index = () => {
   return (
     <div className="bodyInBackendLogin">
+        <div className="leftBackgroundInBackendLogin" />
         <div className="leftInBackendLogin">
           <div className="wordOurInBackendLogin">
             Our Technology,<br></br>A New Passion.
@@ -14,28 +15,26 @@ const index = () => {
           <div className="wordBookInBackendLogin">
             Book Everything 2023
           </div>
-
         </div>
         <div className="rightInBackendLogin">
           <div className="blockInRightInBackendLogin">
             <div className="picNBeThingInBackendLogin">
-                  <img className="logoInBackendLogin" src={require("../../static/1.png")}/>
-                  <img className="beThingInBackendLogin" src={require("../../static/BE-Thing.png")}></img>
-              </div>
-              <div className="wordSignInBackendLogin">Sign in to Dashboard</div>
-              <div className="wordEmailInBackendLogin">Email/ User Name</div>
-              {/* <input className="inputEmailInBackendLogin" placeholder="input your email/ user name in here"></input> */}
-              <EmailInput width="100%"/>
-              <div className="wordEmailInBackendLogin">Password</div>
-              <PasswordInput word="password" width="100%"/>
-              <div className="wordforgotInBackendLogin">Forgot password？</div>
-              <button className="buttonInBackendLogin">Sign</button>
-              <div>
-                <div className="checkboxNRememberMeInBackendLogin">
-                  <Checkbox {...label}/>
-                  <div className="rememberMe">Remember me</div>
-              </div>
-              </div>
+              <img src={require("../../static/BlueBeThing.png")}/>
+            </div>
+            <div className="wordSignInBackendLogin">Sign in to Dashboard</div>
+            <div className="wordEmailInBackendLogin">Email/ User Name</div>
+            {/* <input className="inputEmailInBackendLogin" placeholder="input your email/ user name in here"></input> */}
+            <EmailInput width="100%"/>
+            <div className="wordPasswordInBackendLogin">Password</div>
+            <PasswordInput word="password" width="100%"/>
+            <div className="wordforgotInBackendLogin">Forgot password？</div>
+            <button className="buttonInBackendLogin">Sign</button>
+            <div>
+              <div className="checkboxNRememberMeInBackendLogin">
+                <Checkbox {...label}/>
+                <div className="rememberMe">Remember me</div>
+            </div>
+            </div>
           </div>
         </div>      
     </div>

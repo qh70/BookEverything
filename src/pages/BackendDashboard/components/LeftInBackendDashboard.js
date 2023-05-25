@@ -58,17 +58,12 @@ const LeftNew = () => {
       <div className="leftEmpty"/>
       <div className="left">
             <div className="logoNWordInOrder">
-                <img className="WTCLogo1" src={require("../../../static/1.png")}/>
-                <img src={require("../../../static/BE-Thing White.png")}/>
+                {/* <img className="WTCLogo1" src={require("../../../static/1.png")}/>
+                <img src={require("../../../static/BE-Thing White.png")}/> */}
+                <img src={require("../../../static/WhiteBeThing.png")} />
             </div>
             <div className="whiteBlockDashboardInBackendDashboard">
-                <div>
-                </div>
-                <div>Dashboard</div>
-                
-            </div>
-            <div>
-
+              <img src={require("../../../static/Dashboard.png")} />
             </div>
             <List className="ListInLeftNew">
                 {itemMeun.map(item => (

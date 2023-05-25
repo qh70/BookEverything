@@ -1,13 +1,20 @@
 import ThreeCoinsSec from "./ThreeCoinsSec"
 import UpNDownArrows from "../../../components/UpNDownArrows";
+import Calendar from "./Calendar";
+import UpcomingInBackendDashboard from "./UpcomingInBackendDashboard";
 // for MUI
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
+// import Table from '@mui/material/Table';
+// import TableBody from '@mui/material/TableBody';
+// import TableCell from '@mui/material/TableCell';
+// import TableContainer from '@mui/material/TableContainer';
+// import TableHead from '@mui/material/TableHead';
+// import TableRow from '@mui/material/TableRow';
+// import Paper from '@mui/material/Paper';
+
+// for Calendar
+// import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+// import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+// import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 
 function createData(name, calories, fat, carbs, protein) {
     return { name, calories, fat, carbs, protein };
@@ -22,6 +29,8 @@ const rows = [
 ];
 
 const ContentInBackendDashboard = () => {
+    
+
   return (
     <div className="ContentInBackendDashboard">
         <div className="bottomInContentInBackendDashboard">
@@ -42,38 +51,97 @@ const ContentInBackendDashboard = () => {
                             <img className="filterInBackendDashboard" src={require("../../../static/Frame 32@2x.png")} />
                         </div>
                     </div>
-                    <table className="tableInBackendDashboard">
-                        {/* <thead> */}
-                            <tr className="trOfHeadInBackendDashboard">
-                                <td className="iDinAppointmentsInBackendDashboard">
-                                    <div>ID</div>
-                                    <UpNDownArrows />
-                                </td>
-                                <td className="iDinAppointmentsInBackendDashboard">Status</td>
-                                <td className="appointmentDateInBackendDashboard">
-                                    <div>Appointment Date</div>
-                                    <UpNDownArrows />
-                                </td>
-                                <td className="iDinAppointmentsInBackendDashboard">
-                                    <div>Time</div>
-                                    <UpNDownArrows />
-                                </td>
-                                <td className="iDinAppointmentsInBackendDashboard">
-                                    <div>Amount(HKD)</div>
-                                    <UpNDownArrows />
-                                </td>
-                            </tr>
-                        {/* </thead> */}
-                        {/* <tbody> */}
-                            <tr className="trOfBodyInBackendDashboard">
-                            <td className="tdOfBodyInBackendDashboard">John</td>
-                            <td className="tdOfBodyInBackendDashboard">25</td>
-                            <td className="">Male</td>
-                            <td className="tdOfBodyInBackendDashboard">Male</td>
-                            <td className="">Male</td>
-                            </tr>
-                        {/* </tbody> */}
-                    </table>
+                    <div className="tableNPreviousPage">
+                        <table className="tableInBackendDashboard">
+                            {/* <thead> */}
+                                <tr className="trOfHeadInBackendDashboard">
+                                    <td className="iDinAppointmentsInBackendDashboard">
+                                        <div>ID</div>
+                                        <UpNDownArrows />
+                                    </td>
+                                    <td className="statusInAppointmentsInBackendDashboard">
+                                        Status
+                                    </td>
+                                    <td className="appointmentDateInAppointmentsInBackendDashboard">
+                                        <div>Appointment Date</div>
+                                        <UpNDownArrows />
+                                    </td>
+                                    <td className="timeInAppointmentsInBackendDashboard">
+                                        <div>Time</div>
+                                        <UpNDownArrows />
+                                    </td>
+                                    <td className="amountInAppointmentsInBackendDashboard">
+                                        <div>Amount(HKD)</div>
+                                        <UpNDownArrows />
+                                    </td>
+                                </tr>
+                            {/* </thead> */}
+                            {/* <tbody> */}
+                                <tr className="trOfBodyInBackendDashboard">
+                                    <td className="firstTrOfBodyInBackendDashboard">XXXX01</td>
+                                    <td className="secondTrOfBodyInBackendDashboard">
+                                        <img src={require("../../../static/Finished.png")} />
+                                    </td>
+                                    <td className="thirdTrOfBodyInBackendDashboard">January 29,2023</td>
+                                    <td className="fourthTrOfBodyInBackendDashboard">11：00-13：00</td>
+                                    <td className="fifthTrOfBodyInBackendDashboard">
+                                        <div>$400.00</div>
+                                        {/* <div>
+                                            <div>.</div>
+                                            <div>.</div>
+                                            <div>.</div>
+                                        </div> */}
+                                        <img className="threeDots" src={require("../../../static/ThreeDots.png")} />
+                                    </td>
+                                </tr>
+                                <div className="hrInBackendDashboard"></div>
+                                
+                                <tr className="trOfBodyInBackendDashboard">
+                                    <td className="firstTrOfBodyInBackendDashboard">XXXX01</td>
+                                    <td className="secondTrOfBodyInBackendDashboard">
+                                        <img src={require("../../../static/Canceled.png")} />
+                                    </td>
+                                    <td className="thirdTrOfBodyInBackendDashboard">January 29,2023</td>
+                                    <td className="fourthTrOfBodyInBackendDashboard">11：00-13：00</td>
+                                    <td className="fifthTrOfBodyInBackendDashboard">
+                                        <div>$400.00</div>
+                                        {/* <div>
+                                            <div>.</div>
+                                            <div>.</div>
+                                            <div>.</div>
+                                        </div> */}
+                                        <img className="threeDots" src={require("../../../static/ThreeDots.png")} />
+                                    </td>
+                                </tr>
+                                <div className="hrInBackendDashboard"></div>
+                                
+                                <tr className="trOfBodyInBackendDashboard">
+                                    <td className="firstTrOfBodyInBackendDashboard">XXXX01</td>
+                                    <td className="secondTrOfBodyInBackendDashboard">
+                                        <img src={require("../../../static/Upcoming.png")} />
+                                    </td>
+                                    <td className="thirdTrOfBodyInBackendDashboard">January 29,2023</td>
+                                    <td className="fourthTrOfBodyInBackendDashboard">11：00-13：00</td>
+                                    <td className="fifthTrOfBodyInBackendDashboard">
+                                        <div>$400.00</div>
+                                        {/* <div>
+                                            <div>.</div>
+                                            <div>.</div>
+                                            <div>.</div>
+                                        </div> */}
+                                        <img className="threeDots" src={require("../../../static/ThreeDots.png")} />
+                                    </td>
+                                </tr>
+                                <div className="hrInBackendDashboard"></div>
+                            {/* </tbody> */}
+                        </table>
+                        <div className="previousSecInBackendDashboard">
+                            <div className="wordPreviousInBackendDashboard">Previous page</div>
+                            <div className="bluePageIndexInBackendDashboard">1</div>
+                            <div className="greyPageIndexInBackendDashboard">2</div>
+                            <div className="wordNextPageInBackendDashboard">Next page</div>
+                        </div>
+                    </div>
 
                     {/* <TableContainer component={Paper}>
                         <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -117,7 +185,13 @@ const ContentInBackendDashboard = () => {
                     
                 </div>
             </div>
-            <div className="calendarInBackendDashboard">calendar</div>
+            <div className="calendarInBackendDashboard">
+                <Calendar />
+                <UpcomingInBackendDashboard />
+                {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
+                    <DateCalendar leftArrowButtonProps={{ style: { display: 'none !important' } }}/>
+                </LocalizationProvider> */}
+            </div>
         </div>
       
     </div>

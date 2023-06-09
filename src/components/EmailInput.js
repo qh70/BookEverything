@@ -10,7 +10,6 @@ const EmailInput = ({width}) => {
         startAdornment: <InputAdornment position="start"></InputAdornment>,
         }}
     />
-    
 }
 
 export default EmailInput

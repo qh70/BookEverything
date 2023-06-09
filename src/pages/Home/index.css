@@ -1160,7 +1160,7 @@ body {
     margin: 0px;
     background-color: #0058FE;
     position: fixed;top: 0;left: 0;
-    z-index: 2000;
+    z-index: 95;
 }
   
   /* .imgNWTYTrading {
@@ -1747,3 +1747,312 @@ table {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* backendDashboard Overlay */
+.overlayInBED {
+    /* display: none; */
+    width: 100%;height: 100%;
+    position: fixed;z-index: 100;top: 0;left: 0;background: rgb(0,0,0,0.7);
+}
+
+.appointmentInfo {
+    width: 57%;height: 100%;
+    margin-left: 43%;
+    background-color: white;
+}
+
+.firstInAppointmentInfo {
+    display: flex;
+    width: 100%;height: 13%;
+    color: #0058FE;
+}
+
+.picPaperInAppointmentInfo {
+    width: 2.5%;height: 25%;
+    margin: auto;
+    margin-top: 6.5%;
+    margin-left: 4%;margin-right: 1%;
+}
+
+.wordAppointmentInfo {
+    margin: auto;
+    margin-top: 6%;
+    margin-left: 1%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bTNClose {
+    width: 10%;height: 30%;
+    margin-top: 6%;
+    margin-right: 1%;
+}
+
+.bTNEdit {
+    width: 10%;height: 30%;
+    margin-top: 6%;
+    margin-right: 4%;
+}
+
+.hrInAppointmentInfo {
+    width: 95%;
+}
+
+.secondInAppointmentInfo {
+    margin-left: 11%;
+}
+
+.linesInSecondInAppointmentInfo {
+    display: flex;  
+    margin-top: 4%;  
+}
+
+.secSInSecondInAppointmentInfo {
+    width: 43%;
+}
+
+.titlesInAppointmentInfo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contentUnderTitlesInAppointmentInfo {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.secondPartInSecWithTwoPartsInSecondInAppointmentInfo {
+    margin-left: 30%;
+}
+
+.greyContentUnderTitlesInAppointmentInfo {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B6B6B;
+}
+
+.twoPartsInAppointmentInfo {
+    display: flex;
+    width: 43%;
+}
+
+.firstPartInAppointmentInfo {
+    width: 100%;height: 100%;
+}
+
+.secondPartInAppointmentInfo {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.contentTimeUnderTitlesInAppointmentInfo {
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.timeInContentTimeUnderTitlesInAppointmentInfo {
+    margin-left: 10%;
+    color: #6B6B6B;
+}
+
+.secondHrInAppointmentInfo {
+    width: 95%;
+    margin-top: 7%;
+}
+
+.thirdInAppointmentInfo {
+    margin-top: 4%;
+    margin-left: 9%;
+}
+
+.headNCustomerInformation {
+    display: flex;
+    color:#0058FE;
+}
+
+.flagNNumber {
+    display: flex;
+}
+
+.wordCI {
+    margin-left: 2%;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.emailNPhoneNIDInThirdInAppointmentInfo {
+    display: flex;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 2%;
+    justify-content: space-between;
+    background-color: red;
+}
+
+
+
+.textInEmailNPhoneNIDInThirdInAppointmentInfo {
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B6B6B;
+    white-space: nowrap;
+}
+
+/* EditAppointment */
+
+
+.bTNResendConfirmation {
+    width: 25%;height: 30%;
+    margin-top: 6%;
+    margin-right: 1%;
+}
+
+.inputForRoomIDNPaymentInSecondInAppointmentInfo {
+    width: 80%;height: 60%;
+    margin-top: 3%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+}
+
+.divForRoomIDNPaymentInSecondInAppointmentInfo {
+    width: 81%;height: 65%;
+    margin-top: 2%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+}
+
+.downArrowInAppointmentDiv {
+    margin-left: 90%;
+    transform: translateY(70%)
+}
+
+.inputForCreatedAtNIDInSecondInAppointmentInfo {
+    width: 100%;height: 60%;
+    margin-top: 3%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+
+}
+
+.pICCalendarInAppointmentDiv {
+    margin-left: 90%;
+    transform: translateY(40%)
+}
+
+/* .contentTimeUnderTitlesInEditAppointment {
+    display: flex;
+    height: 20%;
+}
+
+.inputForTimeInSecondInAppointmentInfo {
+    width: 100%;height: 250%;
+    margin-top: 3%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+}
+
+.inputForSecondTimeInSecondInAppointmentInfo {
+    width: 100%;height: 250%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+} */
+
+.divPaymentStatusInSecondInEditAppointment {
+    width: 101%;height: 65%;
+    margin-top: 2%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+}
+
+.thirdInEditAppointment {
+    margin-top: 4%;
+    margin-left: 11%;
+}
+
+.emailNPhoneNIDInThirdInEditAppointment {
+    display: flex;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 0%;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.inputForEmailInThirdInAppointmentInfo {
+    width: 160%;height: 60%;
+    margin-top: 3%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.phoneNTextOrInputInThirdInEditAppointment {
+    margin-right: -32%;
+    background-color: green;
+}
+
+.tileInCI {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.IDNTextOrInputInThirdInAppointmentInfo {
+    margin-left: 10px;
+}
+
+.inputForLocationInSecondInAppointmentInfo {
+    width: 100%;height: 60%;
+    margin-top: 3%;
+    border: #BABABA 2px solid;
+    border-radius: 5px;
+}
+
+/* CancelAppointment */
+.overlayWithCancelAppointment {
+    /* display: none; */
+    width: 100%;height: 100%;
+    position: fixed;z-index: 100;top: 0;left: 0;background: rgb(0,0,0,0.7);
+    align-items: center;
+}
+
+.cancelAppointment {
+    width: 39%;height: 34%;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.wordCancelAppointment {
+    margin: auto;
+    padding-top: 8%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.warningInCancelAppointment {
+    margin: auto;
+    margin-top: 6%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.twoBTNsInCancelAppointment {
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.bTNNoInCancelAppointment {
+    margin-right: 10%;
+}
+

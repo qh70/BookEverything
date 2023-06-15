@@ -2,7 +2,7 @@ import TitlesInAppointmentInfo from "../components/TitlesInAppointmentInfo.js"
 import ContentInAppointmentInfo from "../components/ContentInAppointmentInfo.js"
 import GreyContentInAppointmentInfo from "../components/GreyContentInAppointmentInfo.js"
 
-const AppointmentInfo = () => {
+const AppointmentInfo = ({setOverlaystatusINBED}) => {
   return (
     <div className="overlayInBED">
         <div className="appointmentInfo">
@@ -10,7 +10,7 @@ const AppointmentInfo = () => {
                 <img className="picPaperInAppointmentInfo" src={require("../../../static/PaperInAppointmentInfo.png")} />
                 <div className="wordAppointmentInfo">Appointment Info</div>
                 <img className="bTNClose" src={require("../../../static/CloseButton.png")} />
-                <img className="bTNEdit" src={require("../../../static/EditButton.png")} />
+                <img className="bTNEdit" src={require("../../../static/EditButton.png")} onClick={()=>setOverlaystatusINBED("edit")}/>
             </div>
             <hr className="hrInAppointmentInfo"></hr>
             {/* 第二段 */}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CancelAppointment = () => {
+const CancelAppointment = ({setOverlaystatusINBED}) => {
   return (
     <div className="overlayWithCancelAppointment">
         <div className="cancelAppointment">
@@ -14,7 +14,7 @@ const CancelAppointment = () => {
             </div>
             <div className="twoBTNsInCancelAppointment">
                 <img className="bTNNoInCancelAppointment" src={require("../../../static/BTNNoInCancelAppointment.png")} />
-                <img src={require("../../../static/BTNYesInCancelAppointment.png")} />
+                <img src={require("../../../static/BTNYesInCancelAppointment.png")} onClick={()=>{setOverlaystatusINBED("")}}/>
             </div>
         </div>
       

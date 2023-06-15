@@ -28,7 +28,7 @@ const rows = [
     createData('Gingerbread', 356, 16.0, 49, 3.9),
 ];
 
-const ContentInBackendDashboard = () => {
+const ContentInBackendDashboard = ({setOverlaystatusINBED}) => {
     
 
   return (
@@ -48,7 +48,7 @@ const ContentInBackendDashboard = () => {
                         </div>
                         <div className="inputNFilterInBackendDashboard">
                             <input className="inputSearchInBackendDashboard" placeholder="Search ID/Customer" />
-                            <img className="filterInBackendDashboard" src={require("../../../static/Frame 32@2x.png")} />
+                            <img className="filterInBackendDashboard" src={require("../../../static/Frame 32@2x.png")} onClick={()=>{setOverlaystatusINBED("filter")}}/>
                         </div>
                     </div>
                     <div className="tableNPreviousPage">

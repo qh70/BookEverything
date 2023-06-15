@@ -45,28 +45,28 @@ const Calendar = () => {
         let newday = <div></div>
         if (i>= firstDay.getDay()) { // 顯示這個月所有日期
             newday = 
-                <div className="calendarDay">
-                    {i - firstDay.getDay()+1}
+                <div className="calendarDayBlock">
+                    <div className="calendayDay">{i - firstDay.getDay()+1}</div>
                 </div>
             if (i === firstDay.getDay()){ // 每月的第一天，暫時先標成淺藍色
                 newday = 
-                    <div className="calendarDay">
-                        {i - firstDay.getDay()+1}
+                    <div className="calendayFirstDayBlock">
+                        <div className="calendayDay">{i - firstDay.getDay()+1}</div>
                     </div>
             }
             if (i - firstDay.getDay() + 1 === today.getDate() && year === today.getFullYear()){ // 當日，標成藍色
                 newday = 
-                    <div className="calendarDay">
-                        {i}<div className="currDate"></div>
+                    <div className="calendarToDayBlock">
+                        <div className="calendayDay">{i - firstDay.getDay() + 1}</div>
                     </div>
             }
         }
         divCollecttionOfThisMonth = [...divCollecttionOfThisMonth, newday]
     }
     
-    console.log(today.getDate())
-    console.log(today.getFullYear())
-    console.log(year)
+    // console.log(today.getDate())
+    // console.log(today.getFullYear())
+    // console.log(year)
 
 
   return (

@@ -44,7 +44,6 @@ body {
 
 .forgotPassword {
     margin-right: 6rem;
-    color:red;
     line-height: 5rem;
 }
 
@@ -1672,21 +1671,55 @@ table {
     color: black;
 }
 
-.calendarDay {
-    width: 50%;height: 0;
+.calendarDayBlock {
+    width: 80%;height: 0;
+    margin-top: 15%;
     padding: 0;
-    padding-bottom: 50%;
+    padding-top: 0%;
+    padding-bottom: 80%;
     border-radius: 5px;
     align-items: center;
     text-align: center;
     cursor: pointer;
 }
 
-.currDate {
+.calendayFirstDayBlock {
+    width: 80%;height: 0;
+    margin-top: 15%;
+    padding: 0;
+    padding-top: 0%;
+    padding-bottom: 80%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: #E3EEFF;
+}
+
+.calendarToDayBlock {
+    width: 80%;height: 0;
+    margin-top: 15%;
+    padding: 0;
+    padding-top: 0%;
+    padding-bottom: 80%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #0058FE;
+}
+
+.calendayDay {
+    width: 100%;height: 100%;
+    margin-top: 30%;    
+}
+
+/* .currDate {
     width: 100%;height: 100%;
     border-radius: 5px;
     color: white;background-color: #0058FE;
-}
+} */
 
 /* UpcomingInBackendDashboard */
 .wordUpcomingNAll {
@@ -1890,7 +1923,6 @@ table {
     margin-top: 5%;
     margin-left: 2%;
     justify-content: space-between;
-    background-color: red;
 }
 
 
@@ -1982,7 +2014,6 @@ table {
     margin-top: 5%;
     margin-left: 0%;
     justify-content: space-between;
-    background-color: red;
 }
 
 .inputForEmailInThirdInAppointmentInfo {

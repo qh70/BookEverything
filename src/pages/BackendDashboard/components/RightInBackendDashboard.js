@@ -2,12 +2,12 @@ import NavInBackendDashboard from "./NavInBackendDashboard"
 import ContentInBackendDashboard from "./ContentInBackendDashboard"
 import InToday from "./InToday"
 
-const RightInBackendDashboard = () => {
+const RightInBackendDashboard = ({setOverlaystatusINBED}) => {
   return (
     <div className="rightInBackendDashboard">
       <NavInBackendDashboard />
       <InToday />
-      <ContentInBackendDashboard />
+      <ContentInBackendDashboard setOverlaystatusINBED={setOverlaystatusINBED}/>
     </div>
   )
 }

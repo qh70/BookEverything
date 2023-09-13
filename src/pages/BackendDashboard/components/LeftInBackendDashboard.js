@@ -5,38 +5,46 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AutoAwesomeMosaicIcon from '@mui/icons-material/AutoAwesomeMosaic';
 import { ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { useHistory, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
+import BorderAllIcon from '@mui/icons-material/BorderAll';
 
 
 const LeftNew = () => {
     
     const location = useLocation()
 
+    const navigate = useNavigate();
+
     const itemMeun = [
+      {
+        text: "Dashboard",
+        icon: <BorderAllIcon />,
+        path: "/backenddashboard"
+      },
       {
         text: "Appointments",
         icon: <DateRangeIcon />,
-        path: "/order"
+        path: "/appointments"
       },
       {
         text: "IoT Rooms",
         icon: <PhotoIcon />,
-        path: "/product"
+        path: "/iotrooms"
       },
       {
         text: "Customers",
         icon: <AccountCircleIcon />,
-        path: "/user"
+        path: "/customers"
       },
       {
         text: "Payments",
         icon: <AutoAwesomeMosaicIcon />,
-        path: "/clients"
+        path: "/payments"
       },
       {
         text: "Report",
         icon: <AutoAwesomeMosaicIcon />,
-        path: "/clients"
+        path: ""
       }
     ]
 
@@ -62,17 +70,18 @@ const LeftNew = () => {
                 <img src={require("../../../static/BE-Thing White.png")}/> */}
                 <img src={require("../../../static/WhiteBeThing.png")} />
             </div>
-            <div className="whiteBlockDashboardInBackendDashboard">
+            {/* <div className="whiteBlockDashboardInBackendDashboard">
               <img src={require("../../../static/Dashboard.png")} />
-            </div>
+            </div> */}
             <List className="ListInLeftNew">
                 {itemMeun.map(item => (
                 <ListItem 
                     key={item.text}
+                    onClick={()=>{navigate(item.path);console.log(location.pathname)}}
                 >
-                    <div className="iconNMenuDark">
-                        <ListItemIcon className="itemIconDark">{item.icon}</ListItemIcon>
-                        <ListItemText className={location.pathname == item.path ? "itemMenu" : "itemMenuDark"} primary={item.text}/>
+                    <div className={location.pathname === item.path ? "iconNMenuDark" : "iconNMenu"}>
+                        <ListItemIcon className={location.pathname === item.path ? "itemIconDark" : "itemIcon"}>{item.icon}</ListItemIcon>
+                        <ListItemText className={location.pathname === item.path ? "itemMenuDark" : "itemMenu"} primary={item.text}/>
                     </div>
                 </ListItem>
                 ))}
@@ -82,9 +91,9 @@ const LeftNew = () => {
                 <ListItem 
                     key={item.text}
                 >
-                    <div className="iconNMenuDark">
-                        <ListItemIcon className="itemIconDark">{item.icon}</ListItemIcon>
-                        <ListItemText className={location.pathname == item.path ? "itemMenu" : "itemMenuDark"} primary={item.text}/>
+                    <div className="iconNMenu">
+                        <ListItemIcon className="itemIcon">{item.icon}</ListItemIcon>
+                        <ListItemText className={location.pathname === item.path ? "itemMenuDark" : "itemMenu"} primary={item.text}/>
                     </div>
                 </ListItem>
                 ))}

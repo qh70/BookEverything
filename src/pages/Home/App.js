@@ -14,6 +14,17 @@ import BackendLogin from "../BackendLogin"
 import BackendLoginForgot from "../BackendLoginForgot"
 import BackendDashboard from "../BackendDashboard"
 
+const Root = () => {
+
+    return (
+        <>
+            <div>
+                <Outlet />
+            </div>
+        </>
+    )
+}
+
 const App = () => {
     const router = createBrowserRouter(
         createRoutesFromElements(
@@ -31,6 +42,10 @@ const App = () => {
                 <Route path="/backendlogin" element={<BackendLogin />} />
                 <Route path="/backendloginforgot" element={<BackendLoginForgot />} />
                 <Route path="/backenddashboard" element={<BackendDashboard />} />
+                <Route path="/appointments" element={<BackendDashboard />} />
+                <Route path="/iotrooms" element={<BackendDashboard />} />
+                <Route path="/customers" element={<BackendDashboard />} />
+                <Route path="/payments" element={<BackendDashboard />} />
             </Route>
         )
     )
@@ -39,17 +54,6 @@ const App = () => {
         <div>
             <RouterProvider router={router}/>
         </div>
-    )
-}
-
-const Root = () => {
-
-    return (
-        <>
-            <div>
-                <Outlet />
-            </div>
-        </>
     )
 }
 
